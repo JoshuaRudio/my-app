@@ -2,16 +2,28 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import styled from 'styled-components';
 
-const Wrapper = styled.div``;
+const Wrapper = styled.div`
+  width: 60%;
+  margin: 0 auto;
+  padding-top: 100px;
+  height: 500px;
+  text-align: center;
+  line-height: 2em;
+  border-radius: 5px;
+  color: #33acb7;
+  h2 {
+    font-family: garamond, sans-serif;
+  }
+  h1 {
+    text-transform: uppercase;
+  }
+`;
 
 const Landing = () =>
   <Wrapper>
-    <h1>Hi! I'm Joshua Rudio.</h1>
-    <p>Like a strong oak tree in a storm, I will not be shaken. Unwavering and determined, yet humble and fluid. </p>
-    <p>
-      I welcome encounters of new and difficult problems because they are opportunities to learn, grow, and show
-      resiliency.
-    </p>
+    <h2 className="welcome-statement">I am here to create beautiful and meaningful things.</h2>
+    <h1>If you're looking for someone who's super chill and can do a ton of cool stuff:</h1>
+    <button className="button">Hit me up!</button>
   </Wrapper>;
 
 export default Landing;

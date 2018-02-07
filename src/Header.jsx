@@ -7,12 +7,15 @@ const Header = () =>
     <a href="/">
       <img src={logo} className="App-logo" alt="logo" />
     </a>
-    <h1 className="App-title">Joshua Rudio</h1>
-    <ul>
-      <li className="category">Website</li>
-      <li>Something</li>
+    <ul className="nav">
       <li>
-        <a href="/about">About me</a>
+        <a href="/about">About</a>
+      </li>
+      <li>
+        <a href="/projects">Projects</a>
+      </li>
+      <li>
+        <a href="/contact">Contact</a>
       </li>
     </ul>
   </div>;
