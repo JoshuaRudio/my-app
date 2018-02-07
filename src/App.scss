@@ -53,6 +53,15 @@ img {
   font-style: italic;
 }
 
+.button-container {
+  display: flex;
+
+  margin: 60px auto;
+
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
 .button {
   display: flex;
   overflow: hidden;
@@ -63,11 +72,10 @@ img {
   cursor: pointer;
   user-select: none;
   transition: all 150ms linear;
-  text-align: center;
   white-space: nowrap;
+  text-align: center;
   text-decoration: none !important;
-  text-transform: none;
-  text-transform: capitalize;
+  text-transform: uppercase;
 
   color: #fff;
   background-color: #33acb7;

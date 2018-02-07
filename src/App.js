@@ -4,7 +4,7 @@ import { BrowserRouter, Route, Switch } from 'react-router-dom';
 import Header from './Header.jsx';
 import Landing from './Landing.jsx';
 import About from './About.js';
-import './App.css';
+import './App.scss';
 
 const App = () =>
   <BrowserRouter>
