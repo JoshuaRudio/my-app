@@ -54,9 +54,9 @@ a {
 }
 
 .button-container {
-  display: flex;
+  display: inline-block;
 
-  margin: 60px auto;
+  margin: 30px auto;
 
   flex-wrap: wrap;
   justify-content: center;
@@ -126,6 +126,8 @@ a {
 
 .social-media {
   list-style-type: none;
+  float: left;
+  padding: 0;
   li {
     float: left;
   }
@@ -145,5 +147,44 @@ a {
   width: 40px;
   border-radius: 10px;
   float: left;
-  padding-top: 10px;
+}
+
+.contact-section {
+  width: 55%;
+  color: #33acb7;
+  margin: 0 auto;
+}
+
+.project-img {
+  width: 500px;
+  border: 1px solid #33acb7;
+}
+
+.projects-container {
+  list-style-type: none;
+}
+
+.project-container {
+  display: inline-block;
+  width: 500px;
+  padding: 10px;
+}
+
+.copyright {
+  float: right;
+}
+
+.project-card-container {
+  width: 60%;
+  margin: 0 auto;
+  display: inline-block;
+  color: #33acb7;
+  img {
+    width: 60%;
+    border: 1px solid #33acb7;
+  }
+}
+
+.project-description {
+  display: block;
 }
