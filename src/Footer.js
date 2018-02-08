@@ -5,6 +5,9 @@ const StyledFooter = styled.div`
   color: #9eafba;
   width: 60%;
   float: right;
+  bottom: 0;
+  overflow: hidden;
+  height: 100px;
 `;
 
 const Footer = () => {
